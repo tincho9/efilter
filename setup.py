@@ -54,7 +54,7 @@ setup(name="rekall-efilter",
       package_dir={"efilter": "efilter"},
       install_requires=[
           "python-dateutil > 2",
-          "future==0.16.0",
+          "future~=0.18.2",
           "pytz >= 2011k",
           "six >= 1.4.0"]
 )
